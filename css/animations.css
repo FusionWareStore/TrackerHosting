@@ -1,0 +1,17 @@
+.fw-bold.mb-4 span {
+  opacity: 0;
+  animation-name: typing;
+  animation-duration: 0.1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
